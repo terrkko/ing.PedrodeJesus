@@ -1,8 +1,7 @@
-from flask import Blueprint, render_template
+from flask import render_template
+from . import main_bp  # Importamos el blueprint definido en __init__.py
 
-main = Blueprint('main', __name__)
-
-@main.route('/')
+@main_bp.route('/')
 def inicio():
     datos = {
         'nombre': 'Luis González',

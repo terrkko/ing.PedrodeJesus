@@ -15,6 +15,8 @@
             {% for nombre, enlace in redes.items() %}
             <li><a href="{{ enlace }}" target="_blank">{{ nombre }}</a></li>
             {% endfor %}
+	    <a href="{{ url_for('passwords.login') }}">Iniciar sesión</a>
+	
         </ul>
     </div>
 </body>

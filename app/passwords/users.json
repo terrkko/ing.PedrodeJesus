@@ -1,0 +1,87 @@
+{
+  "admin": {
+    "password_hash": "$scrypt$ln=16,r=8,p=1$B8C4lzJmjLG2Vur9n5NyLg$r+ERDs+o4v9k64xpfj6JrpOobmltwaQQGHXunxPk51Y",
+    "data": {
+      "hotmail": {
+        "usuario": "gAAAAABocReNpgvLWUCRoPHa9Nojk6zsDq2d108dkpHJdqQoe1vBWQROFsko4b2t0gejt0w8dKqcTKri4FNUDkxnQEKC35S9Ww==",
+        "password": "gAAAAABocReNLvDTnZsUaNoGDQb8aee8VruuoWkcaVvzWTCBdvk1REFwbRgDZ6_dO50BB1qnmkrRM_7F6WzJQgLlVPRT8IuKpA=="
+      },
+      "hotmail2": {
+        "usuario": "gAAAAABocReNPueAQfIIHWub9WwDEUP6jiheVChqPmEg3u5ElmKFaXWDWObiYFtt48AAwYws58ySEuyQL7OPzKV9twHq12fU1g==",
+        "password": "gAAAAABocReNj-XEMdZpccqmMZmd33VZPu9aH7MydJHhUKXIHHTD6iFbpuoIXecZBNMpnVSqS-LjCYLKWn89VPq6B5RiLymVuw=="
+      },
+      "cfe": {
+        "usuario": "gAAAAABocReNA7kAgK3_bHKz6V1NzAwWQnprOauNtFlJHteAATsB31yaMCRqgj2hnvUrR-nYPcfo4FLGUjT0pHMkU-t8bKyb3A==",
+        "password": "gAAAAABocReNf0LjuHmNlWGN7XJcfQ_eDevSlDUP3x6d0YnpAHl66KECc6phRd6603MwlWEwXBvkB7f7I-hiVJsusEN_zczsZg=="
+      },
+      "firma.chiapas": {
+        "usuario": "gAAAAABocReNS8NvpRPaazCXMriAGec9mhprI3fVjoZF7YqYbs8h4GVgABS5HRtw4bUljG70kqW9HscsW2A7uAbDl_GBt742_COuHOaoFz3xDTE9sgpMvXI=",
+        "password": "gAAAAABocReNHrx3SZAbQtnK2xE9dVKACalQgLBKmAmmFkPPl865onGL_qIQqT1a7W2gxwHBARGJ1vgyMtBkCOitT9iouezTBw=="
+      },
+      "github": {
+        "usuario": "gAAAAABocReN6XfLeuUZ7rmx4kekFjaXckXdKEhBD4n0bHJN96lEef-idG57VeAaf8_3enxT0qwZ2xOoYzEbZ9SDwxXjxsT38g==",
+        "password": "gAAAAABocReNm6kQfFiNRorw_l8ShBXak641dPyLuM7ao-AplNLp5S6hA4IRIbHtqzQRcDkwYGeIPhK21OwmBOHw8RfVQtbXCw=="
+      },
+      "mega.nz": {
+        "usuario": "gAAAAABocReNFN7U8tLOg5jSk38DjDhdEnV4twanCcGF7hre9JsBnSZSO8IUIRVq-TZc_zHoZTU0w50bVz0wR-yNpG-kG9oc1qS_crgXlnO2k3u2PYRIiys=",
+        "password": "gAAAAABocReN9blJ9-TSdB4W0mXJm2aL2zkIOWebsq3b0LL9yqIJkiHdaRspRQFti57QhLG50O7yB6VbQ0V0BM-FenWWXdIgbQ=="
+      },
+      "dashboar.render.com": {
+        "usuario": "gAAAAABocReNDEm3TqeshAOlK4EYyuix_G_9bjpICXOI0h7HF00hgmV_QHVHZDSZyTyOAKlHiAKLl8IbnTwpBK2ZE9J-uXQBJ8eVuD8VHP6yBnF39kyObwo=",
+        "password": "gAAAAABocReNiHAsz2_LxQZDwiBUDIg97M678uKEkzytSMqlYQLb5KiALscdKRb68e65J2ZyRqqPdG3GfMrgqnwBW5nSXaiYxg=="
+      },
+      "desdgces.salud.gob.mx": {
+        "usuario": "gAAAAABocReNdMqiL9L9sGy41kQtNcp4nRCzcGts72kU5NN1l89q6dWw6nmuybnBhlQM3-UfEfLZdTvP3kLkOM2AFzVLY-0afg==",
+        "password": "gAAAAABocReNLFjN1XA1d6QcqIAn0HwKoi93M2jeEDsT5i8DNxvzijCH84BtL8ge3Jo0aARtx3-hF301ZA5pLdTZIoLgxPwS5g=="
+      },
+      "sinba06.salud.gob.mx:8080": {
+        "usuario": "gAAAAABocReNNdjrOB5Kpl5yg7WL0XWytuBfsgXU_3RpTaC7bIU7b76cwU7XQcTx5DXLelXipX4KV390xYuqgooFWUPNwe4D4A==",
+        "password": "gAAAAABocReNZttoIXOGfheGQ52n2yXwL8ZKhUMg0hobMfX2OnxWSgD0NFz0T7rIKBOz7V5gFfoQWFIcW-12ZAtw5pyx5RbULA=="
+      },
+      "github.com2": {
+        "usuario": "gAAAAABocReNm2CaUdjMrdK-t1EnIHHmND8vOdgRgDcO142DuIAn9fcGQp1Dn_sDziC9JMKsmaAaouB3MLpW1sPpVew8vmKDBw==",
+        "password": "gAAAAABocReNU5xTBakBOOmon9tnSpH9FKz33DHo-DEQG2Bqe2aeYyHOMgh3gtfjy1vDKTtVcr2WTGAcRPKUCeODSi-r7-JtjA=="
+      },
+      "sistematizacion.saludchiapas.gob.mx": {
+        "usuario": "gAAAAABocReN0kvfIOmaL6C-CCzmuqn_y2JHlOONaKusQevZCfbpXBR-97esvRN8SnCKux2oZuN3npSvKVr-gZuyOCfM0R9hK_fr3wFQxfZpnMVV3vz4TVA=",
+        "password": "gAAAAABocReNh-BT7VKykWrCJKw55HewrOnrAOtb3BLUD_4o11nmaMmRGbAFJnFJwRN2_ej4O-gtl1W2TF2IbXoe6flBltH0gw=="
+      },
+      "mega.nz2": {
+        "usuario": "gAAAAABocReNCbRXSlMxusKFgIs2kpHP6ILTV1rFxueje4rtPOZzidVLvreqvNbYNr0GeuYQwjj3OXAN1bl5I48L1QDEmsDpstw2gTKIafsfUvnHNvS1_S8=",
+        "password": "gAAAAABocReNXBU12UtbV9d1tA2pyL386wMZGRNFRdLQ_ZNw9X4FTvCjzcT2TCmQlglFp49TQlfzr6UMYJa9CWlaqgNuuvPhTg=="
+      },
+      "gmail.com": {
+        "usuario": "gAAAAABocReNF4-OFFRqy78EywH5js2FepWrvREdZPtI4AFGLVfasqxLA96XaP-oiqHEWMyUuGrFjpA0iECZe9M-EZpUXY0knodWJL3v2w7vkr7aimxfSqg=",
+        "password": "gAAAAABocReNhQ0US8uwCBbksmhliRCJIDec20TexBwirDyC-un1bGs-J1eKIhA7fCXLJvh_01-gygC-itwRhwpJEQ_1gOin-Q=="
+      },
+      "pensionissste.gob.mx": {
+        "usuario": "gAAAAABocReNZptFXeSmrVD9ooVpLWSRtTkbCprKRTaIzXHGwCS1RYiQSsiFsslxM0i1MgjpO2bWM-gWJ11dh4VVnlS6VcGfmg==",
+        "password": "gAAAAABocReNQstZ8izOR7dQOIS3IXbgiKvS8wQMEXb6Sop2wv-KFbIH1zsRsMP9TSx6RU0jCO9WAGSrYpTGdTuqC2tnYHSrUw=="
+      },
+      "gmail.com2": {
+        "usuario": "gAAAAABocReN7HhRdVtHxZv_YRkxrMtULOyLVe0hqj87ewSaoIs7Ihx0WOD5OlcPomdXDql0DWDgzemz-z_4FXiQIzORUssbpXrry0imevCmikW73sQtWWY=",
+        "password": "gAAAAABocReNioyN9mbwHifbMO7OdwgihojQ_w4oBKk_hGtmlj3gmTLjOGLiiZC7p84dx2igUBqB1d1nltWuIzNyioGGx3ZxwQ=="
+      },
+      "gmail.com3": {
+        "usuario": "gAAAAABocReNK9u54_eF3cVOcy_AiiYUEt415vgxkFt8iM3BjjatJgCs9jB0X-e_znGrcTBzobXIY7ZrwNNAQUGy7Rh3PwkXR-j6_mrbWjGWCc6_a_QJ45w=",
+        "password": "gAAAAABocReN1aCohZWMKZGTA592ihO___a8waqHzOn3TK2DCeaX-aQLja5tQtESGl7NiFB4d1B4dCGETJLHTaXBVn6TJi1NJw=="
+      },
+      "mega.nz2 CLAVE DE RECUPERACION": {
+        "usuario": "gAAAAABocReNni49ig_LTn9nMpTE_fNuLPjtsqk4Uh1BO97LqOSJenP1sLkHHfAD3MrWBua1N4wpHfpQ99ZqMumZFiIlLutOyDT2TuFnSelvEHKUSv-slZU=",
+        "password": "gAAAAABocReN8sB3UPS5w0PNMn-SdlP0bGU1gXj67FFCqQUF1d7m-CDAqn0xbYGoWInn6ouKP_hN_pZwFcYoAHSJkOTxNsAxX0LygIPrhJyhPlaEoOvXfec="
+      },
+      "mega.nz3": {
+        "usuario": "gAAAAABocReNMsmvoVPprmYwFmiObkxCJGqiTx3uwLJbcNj7nDTwGX1xHytMbcO5O3eLjQPb6SbS_zomr9gR4xFWGQ33eGzvPGtw7WQBAiVnu5VfJbhpktkKAMoFce5n7CgnQp1DFaqp",
+        "password": "gAAAAABocReNMS1mMPfcP5AXFM8Gu6AMGpAOiFjbKv1-HpCXzLcuP-4E2EyWQOpDGt2lVgGa633yd_RwuqIrHwaqjDHzB_t-rA=="
+      },
+      "dashboar.render.com2": {
+        "usuario": "gAAAAABocReN8biq53GZeK4BKAXPPzjzL5gnvtfNRgWh65eMMuu90v9kDn8GZQLAe62b4Br74_UYXThMuTcy2wbu6U4E_01krGTQlsW8pxfB-4MwiFac--k=",
+        "password": "gAAAAABocReNrNhbY0Sk9JmuPbb_LkRZblvPDeH9yiazsQgzDNaU1ZuWyJaNRdDNFRwHuARB6nuIGg3SuTH-n8yjC0HaIorbfQ=="
+      }
+    }
+  },
+  "jose": {
+    "password_hash": "scrypt:32768:8:1$LvnCJgQgEuo6wAty$7d6b57b66a4180d93ddc4c638f80d38a13697a36b7dee669d843075aed302ef0cdec41136e9a0570bd2723a40287f227824971f438e9ddbb48e978631bc0929d",
+    "data": {}
+  }
+}
