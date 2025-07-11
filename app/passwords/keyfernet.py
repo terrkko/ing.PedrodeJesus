@@ -19,3 +19,6 @@ from passlib.hash import scrypt
 
 hash = scrypt.hash("P3dr0G@l1nd0")  # o cualquier contraseña
 print(hash)
+
+hash = scrypt.hash("abcd")  # o cualquier contraseña
+print(hash)

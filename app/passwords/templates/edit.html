@@ -2,7 +2,7 @@
 {% block title %}Editar Contraseña{% endblock %}
 {% block content %}
 <h2 class="mb-4">Editar Servicio: {{ service }}</h2>
-<form method="POST" action="{{ url_for('update', service=service) }}" class="card p-4">
+<form method="POST" action="{{ url_for('passwords.update', service=service) }}" class="card p-4">
   <div class="mb-3">
     <label class="form-label">Usuario</label>
     <input name="user" value="{{ user }}" class="form-control" required>
@@ -14,7 +14,7 @@
   <button type="submit" class="btn btn-success">
     <i class="bi bi-save"></i> Guardar Cambios
   </button>
-  <a href="{{ url_for('passwords') }}" class="btn btn-secondary">
+  <a href="{{ url_for('passwords.passwords') }}" class="btn btn-secondary">
     <i class="bi bi-x-circle"></i> Cancelar
   </a>
 </form>
