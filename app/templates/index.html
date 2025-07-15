@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ nombre }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <div class="container">
-        <h1>Hola, soy {{ nombre }}</h1>
-        <p>{{ descripcion }}</p>
 
-        <h3>Redes Sociales</h3>
-        <ul>
-            {% for nombre, enlace in redes.items() %}
-            <li><a href="{{ enlace }}" target="_blank">{{ nombre }}</a></li>
-            {% endfor %}
-	    
-	</ul>
-	<ul>
-		<a href="{{ url_for('passwords.login') }}">Iniciar sesión</a>
-	</ul>
-    </div>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -38,6 +14,7 @@
             max-width: 180px;
             border-radius: 50%;
             border: 3px solid #0d6efd;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
         .section-title {
             border-left: 5px solid #0d6efd;
@@ -49,7 +26,7 @@
 <body>
 <div class="container py-4">
     <div class="text-center mb-4">
-        <img src="{{ url_for('static', filename='foto.jpg') }}" alt="Foto de perfil" class="profile-pic mb-3">
+        <img src="static/foto.jpg" alt="Foto de perfil" class="profile-pic mb-3">
         <h1>Pedro de Jesús Galindo Estrada</h1>
         <p>Motozintla de Mendoza, Chiapas, México</p>
         <p><i class="bi bi-envelope"></i> Bulbosniffer@hotmail.com | <i class="bi bi-phone"></i> 962-64-1-11-99</p>
@@ -58,7 +35,7 @@
             <a href="http://bulbosniffer.mx" class="btn btn-outline-primary" target="_blank"><i class="bi bi-globe"></i> Sitio Web</a>
             <a href="https://www.facebook.com/" class="btn btn-outline-primary" target="_blank"><i class="bi bi-facebook"></i></a>
             <a href="https://www.linkedin.com/" class="btn btn-outline-primary" target="_blank"><i class="bi bi-linkedin"></i></a>
-            <a href="{{ url_for('static', filename='cv_pedro_galindo.pdf') }}" class="btn btn-primary" download><i class="bi bi-download"></i> Descargar CV</a>
+            <a href="static/cv_pedro_galindo.pdf" class="btn btn-primary" download><i class="bi bi-download"></i> Descargar CV</a>
         </div>
     </div>
 
@@ -72,11 +49,12 @@
         <li><strong>CBTIS #243</strong>, Motozintla, 1999-2002</li>
         <li><strong>Secundaria “ESDEM”</strong>, 1996-1999</li>
         <li><strong>Primaria “Niño Artillero”</strong>, 1990-1996</li>
-        
     </ul>
-    <ul>
-		<a href="{{ url_for('passwords.login') }}">Iniciar sesión</a>
-	</ul>
+
+    <a href="login.html" class="btn btn-outline-success mt-3">
+        <i class="bi bi-shield-lock"></i> Iniciar sesión en el sistema de contraseñas
+    </a>
+
     <h3 class="section-title">💼 Experiencia Profesional</h3>
     <ul>
         <li><strong>Jefe de Módulo</strong> – Seguro Popular, El Porvenir (4 años 5 meses)</li>
@@ -104,7 +82,13 @@
         <li>Ética Profesional y Desarrollo Personal</li>
         <li>Certificado por cursos de Calidad y Comunidades Saludables</li>
     </ul>
+
+    <h3 class="section-title">🌄 Mi tierra: Motozintla, Chiapas</h3>
+    <p>Una imagen que muestra la belleza natural de mi lugar de origen.</p>
+    <div class="ratio ratio-16x9 mb-4">
+        <iframe src="https://www.flickr.com/photos/angeluz_photography/9322120560/in/photostream/player/" 
+                frameborder="0" allowfullscreen></iframe>
+    </div>
 </div>
 </body>
 </html>
-
