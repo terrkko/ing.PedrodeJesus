@@ -4,7 +4,7 @@ from . import main_bp  # Importamos el blueprint definido en __init__.py
 @main_bp.route('/')
 def inicio():
     datos = {
-        'nombre': 'Luis González',
+        'nombre': 'Pagina Personal',
         'descripcion': 'Desarrollador web y entusiasta de la tecnología.',
         'redes': {
             'GitHub': 'https://github.com/usuario',
