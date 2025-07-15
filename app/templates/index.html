@@ -23,3 +23,88 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedro de Jesús Galindo Estrada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-pic {
+            max-width: 180px;
+            border-radius: 50%;
+            border: 3px solid #0d6efd;
+        }
+        .section-title {
+            border-left: 5px solid #0d6efd;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <img src="{{ url_for('static', filename='foto.jpg') }}" alt="Foto de perfil" class="profile-pic mb-3">
+        <h1>Pedro de Jesús Galindo Estrada</h1>
+        <p>Motozintla de Mendoza, Chiapas, México</p>
+        <p><i class="bi bi-envelope"></i> Bulbosniffer@hotmail.com | <i class="bi bi-phone"></i> 962-64-1-11-99</p>
+
+        <div class="d-flex justify-content-center gap-3">
+            <a href="http://bulbosniffer.mx" class="btn btn-outline-primary" target="_blank"><i class="bi bi-globe"></i> Sitio Web</a>
+            <a href="https://www.facebook.com/" class="btn btn-outline-primary" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/" class="btn btn-outline-primary" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="{{ url_for('static', filename='cv_pedro_galindo.pdf') }}" class="btn btn-primary" download><i class="bi bi-download"></i> Descargar CV</a>
+        </div>
+    </div>
+
+    <h3 class="section-title">🎯 Objetivo Profesional</h3>
+    <p>Aportar mis habilidades, conocimientos y experiencia en favor del cumplimiento de los objetivos de la empresa o institución donde preste mis servicios.</p>
+
+    <h3 class="section-title">🎓 Educación</h3>
+    <ul>
+        <li><strong>Maestría en Desarrollo de Software</strong>, Universidad Salazar, 2007-2009</li>
+        <li><strong>Ing. en Sistemas Computacionales</strong>, Universidad Salazar, 2003-2006</li>
+        <li><strong>CBTIS #243</strong>, Motozintla, 1999-2002</li>
+        <li><strong>Secundaria “ESDEM”</strong>, 1996-1999</li>
+        <li><strong>Primaria “Niño Artillero”</strong>, 1990-1996</li>
+        
+    </ul>
+    <ul>
+		<a href="{{ url_for('passwords.login') }}">Iniciar sesión</a>
+	</ul>
+    <h3 class="section-title">💼 Experiencia Profesional</h3>
+    <ul>
+        <li><strong>Jefe de Módulo</strong> – Seguro Popular, El Porvenir (4 años 5 meses)</li>
+        <li><strong>Supervisor Gerencial en Salud</strong> – 4 años 6 meses</li>
+        <li><strong>Encargado del Laboratorio</strong> – Universidad IPSUM, Tapachula (4 meses)</li>
+        <li><strong>Técnico de Soporte</strong> – CFE, Tapachula (8 meses)</li>
+        <li><strong>Operador Tecnológico</strong> – IFE, Motozintla (1 año)</li>
+    </ul>
+
+    <h3 class="section-title">🛠️ Habilidades</h3>
+    <ul class="list-group mb-3">
+        <li class="list-group-item">Comunicación verbal y escrita</li>
+        <li class="list-group-item">Redes y sistemas operativos</li>
+        <li class="list-group-item">Análisis y diseño de sistemas</li>
+        <li class="list-group-item">Programación y bases de datos (SQL Server, PostgreSQL)</li>
+        <li class="list-group-item">HTML, desarrollo web</li>
+        <li class="list-group-item">Microsoft Office, Google Suite</li>
+        <li class="list-group-item">Análisis de datos, diseño de imagen</li>
+    </ul>
+
+    <h3 class="section-title">🏅 Reconocimientos y Constancias</h3>
+    <ul>
+        <li>Jornadas Académicas de Ingeniería en Sistemas (2005)</li>
+        <li>Curso "Forma tu microempresa"</li>
+        <li>Ética Profesional y Desarrollo Personal</li>
+        <li>Certificado por cursos de Calidad y Comunidades Saludables</li>
+    </ul>
+</div>
+</body>
+</html>
+
