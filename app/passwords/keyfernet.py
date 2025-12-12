@@ -22,3 +22,5 @@ print(hash)
 
 hash = scrypt.hash("abcd")  # o cualquier contraseña
 print(hash)
+
+
